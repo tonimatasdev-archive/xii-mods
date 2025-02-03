@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "example",
+  "version": "${modVersion}",
+  "name": "Example",
+  "description": "An example mod",
+  "authors": [
+    "TonimatasDEV"
+  ],
+  "contact": {
+    "repo": "https://github.com/TonimatasDEV/XII-Mods"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.tonimatas.example.ExampleFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "${minecraftVersion}"
+  }
+}
