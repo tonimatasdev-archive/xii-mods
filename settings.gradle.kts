@@ -10,4 +10,4 @@ pluginManagement {
 rootProject.name = "xii-mods"
 
 // Example Mod
-include("example", "example:common", "example:fabric", "example:neoforge")
+include("example:common", "example:fabric", "example:neoforge")

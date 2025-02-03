@@ -123,6 +123,10 @@ subprojects {
                 inputFile.set(shadowTask.archiveFile)
             }
         }
+    } else {
+        architectury {
+            minecraft = minecraftVersion
+        }
     }
 
     tasks.withType<JavaCompile> {
